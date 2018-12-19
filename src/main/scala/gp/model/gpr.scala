@@ -3,7 +3,7 @@ import gp.cov.CovFunc
 import breeze.linalg.{DenseMatrix, DenseVector}
 import breeze.optimize.LBFGS
 
-//test
+//test-123version
 object gpr {
 
   def apply(x: DenseMatrix[Double], y: DenseVector[Double], covFunc: CovFunc, covFuncParams: DenseVector[Double], noiseStdDev: Double, mean: Double = 0d,gpMaxIter:Int=1000000): GprModel = {
